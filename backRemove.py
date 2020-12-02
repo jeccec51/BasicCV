@@ -2,7 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import cv2
 
-img = cv2.imread('cat.jpg');
+
+img = cv2.imread('cat.jpg')
 print('this image is:', type(img),
       'with dimension:', img.shape)
 image_copy = np.copy(img)
